@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzakatsA.HealthCheckExtensions", "SzakatsA.HealthCheckExtensions.csproj", "{A32DF91D-E28D-4898-833F-E4D2F1F3FD17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzakatsA.ASPUtilities.HealthCheckExtensions", "SzakatsA.ASPUtilities.HealthCheckExtensions.csproj", "{A32DF91D-E28D-4898-833F-E4D2F1F3FD17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

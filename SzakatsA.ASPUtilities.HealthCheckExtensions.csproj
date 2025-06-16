@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>SzakatsA.ASPUtilities.HealthCheckExtensions</AssemblyName>
+        <RootNamespace>SzakatsA.ASPUtilities.HealthCheckExtensions</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>SzakatsA.ASPUtilities.HealthCheckExtensions</PackageId>
+        <Title>SzakatsA.ASPUtilities.HealthCheckExtensions</Title>
+        <Authors>Szakáts Alpár</Authors>
+        <Description>Maps a health check endpoint that returns the health check response in JSON format</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+        <RepositoryType>git</RepositoryType>
+        <AssemblyVersion>1.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>..\..\Signatures\szakatsa.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+      <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions" Version="9.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="README.md" pack="true" PackagePath=".">
+          <Link>README.md</Link>
+      </Content>
+      <None Include="..\..\Signatures\szakatsa.snk">
+        <Link>szakatsa.snk</Link>
+      </None>
+    </ItemGroup>
+
+</Project>
