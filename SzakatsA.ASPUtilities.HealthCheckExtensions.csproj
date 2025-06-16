@@ -18,6 +18,8 @@
         <FileVersion>1.0.0.0</FileVersion>
         <SignAssembly>true</SignAssembly>
         <AssemblyOriginatorKeyFile>..\..\Signatures\szakatsa.snk</AssemblyOriginatorKeyFile>
+        <PackageProjectUrl>https://github.com/szakatsa/ASPUtilities.HealthCheckExtensions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/szakatsa/ASPUtilities.HealthCheckExtensions</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
