@@ -1,0 +1,1 @@
+# SzakatsA.ASPUtilities.HealthCheckExtensions
